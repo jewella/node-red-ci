@@ -1,0 +1,19 @@
+{
+  "name": "node-red-ci",
+  "version": "1.0.0",
+  "description": "Node-RED CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-red -u . -s ./settings.js"
+  },
+  "keywords": [
+    "Node-RED",
+    "CI"
+  ],
+  "author": "Aaron Jewell",
+  "license": "ISC",
+  "dependencies": {
+    "node-red": "^0.16.2"
+  }
+}
